@@ -49,7 +49,7 @@ class MostStarredRepos extends Component {
           {repos.map(item => (
             <RepoItem repoDetails={item} key={item.id} />
           ))}
-        <    /ul>
+        </ul>
       </div>
     )
   }
