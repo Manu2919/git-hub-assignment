@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.respos-page-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  font-family: 'roboto';
+  font-size: 50px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.unorder-list {
+  list-style-type: none;
+  padding-left: none;
+  width: 90%;
+}
